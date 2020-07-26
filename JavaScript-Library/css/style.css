@@ -1,0 +1,73 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.header .navbar {
+		background-color:#252F31;
+		color:#CBCFD2;
+		overflow: hidden;
+	}
+
+    .header .navbar h2 {float:left; padding-left:10px}
+
+	.header .navbar ul {
+		list-style:none;
+		overflow:hidden;
+		float:right;
+        font-size:18px
+	}
+
+	.header .navbar ul li{
+        float:left;
+        padding:10px;
+		color:#fff;	
+		text-decoration:none;
+	}
+
+	.header .navbar ul li:hover{color:#249561; cursor: pointer;}
+
+.header .slider {
+	   background-image:url("../image/bookshelf.jpg");
+	   -webkit-background-size:cover;
+	   -moz-background-size:cover;
+	   -o-background-size:cover;
+	   height:600px;
+    }
+
+    .header .slider .intro {
+	   padding-top:200px;
+	   text-align:center;
+	   color:#fff
+    }
+    .header .slider .intro h2{
+	   margin: 0 auto;
+       font-family:'Lobster';
+	   font-size:70px
+    }
+
+	
+.grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .grid-box {
+        text-align: center;
+        padding: 20px;
+    }
+
+    .grid-box:nth-child(even) {background-color:#F7F5F5}
+    .grid-box:nth-child(odd) {background-color:#EEE}
+
+button {
+        font-size: 25px;
+        font-weight: bold;
+        text-align: center;
+        margin: 50px;
+        background-color: #3cb957;
+        padding: 15px 7px;
+        border-radius: 20px;
+        border: 1px solid #5be270;
+    }
+
+    button:hover {background-color:#5be278}
